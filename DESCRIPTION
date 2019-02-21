@@ -1,0 +1,18 @@
+Package: PHEQuickMap
+Title: Functions to create quick interactive maps  
+Description: Note - this function will only work for PHE staff with permission to access the Porton GIS database 
+Version: 0.0.0.9000
+Authors@R: person("Daniel", "Gardiner", , "daniel.gardiner@phe.gov.uk", c("aut", "cre"))
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rgisws,
+    sp,
+    rgdal,
+    dplyr,
+    RColorBrewer,
+    magrittr,
+    leaflet,
+    leaflet.extras
+RoxygenNote: 6.1.1
